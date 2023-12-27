@@ -19,7 +19,7 @@ public class ParkingLotApplication {
         TicketController ticketController=new TicketController(ticketService);
         IssueTicketRequestDto issueTicketRequestDto=new IssueTicketRequestDto();
         issueTicketRequestDto.setGateId(01L);
-        issueTicketRequestDto.setOwnerName("Mr. Hindol Bhattacharjee");
+        issueTicketRequestDto.setOwnerName("Mr. HB");
         issueTicketRequestDto.setVehicleNumber("BH 01 0007");
         issueTicketRequestDto.setVehicleType(VehicleType.FourWheeler);
         IssueTicketResponseDto parkingTicket;
